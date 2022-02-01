@@ -14,7 +14,7 @@ services:
       - fallbackcerts:/etc/fallback-certs
     ports:
       - 80:80
-      - 443:443
+      # - 443:443
     command: openresty -g "daemon off;"
 
   server:
